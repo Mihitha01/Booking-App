@@ -1,4 +1,7 @@
-package main
+package main 
+
+//Before any functions run, Go scans all your files and initializes any variables declared at the package level (outside of any function).
+//If you had var dbConnection = connectToDatabase() declared at the top of helper.go, Go would execute that connection logic before anything else.
 
 import (
 	"fmt" // Handles formatted I/O, allowing us to print text to the console and format strings.
