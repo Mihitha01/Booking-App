@@ -19,4 +19,5 @@ func main() {
 	userName = "Tom"
 	userTickets = 2
 	fmt.Printf("User %v booked %v tickets. Remaining tickets: %v\n", userName, userTickets, remainingTickets)
+	
 }
